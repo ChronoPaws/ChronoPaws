@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 0c9aa176441528b438fbadc6dc7fd20c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8023140694463460263
+    second: universidad-simon-bolivar- blanco_0
+  - first:
+      213: 3554770715389405803
+    second: universidad-simon-bolivar- blanco_1
+  - first:
+      213: -1234158683363569055
+    second: universidad-simon-bolivar- blanco_2
+  - first:
+      213: -1421717584364707053
+    second: universidad-simon-bolivar- blanco_3
+  - first:
+      213: -581307469730661235
+    second: universidad-simon-bolivar- blanco_4
+  - first:
+      213: 2758708906191083896
+    second: universidad-simon-bolivar- blanco_5
+  - first:
+      213: -2661514934740320296
+    second: universidad-simon-bolivar- blanco_6
+  - first:
+      213: 7793794019964854162
+    second: universidad-simon-bolivar- blanco_7
+  - first:
+      213: -6891333862653803298
+    second: universidad-simon-bolivar- blanco_8
+  - first:
+      213: 7210850441385377850
+    second: universidad-simon-bolivar- blanco_9
+  - first:
+      213: 5470856159332163678
+    second: universidad-simon-bolivar- blanco_10
+  - first:
+      213: 1999667093348515124
+    second: universidad-simon-bolivar- blanco_11
+  - first:
+      213: 4130569452681172371
+    second: universidad-simon-bolivar- blanco_12
+  - first:
+      213: -2044321972895314949
+    second: universidad-simon-bolivar- blanco_13
+  - first:
+      213: 8483621998504805839
+    second: universidad-simon-bolivar- blanco_14
+  - first:
+      213: -7997283866578725237
+    second: universidad-simon-bolivar- blanco_15
+  - first:
+      213: -7655955054920473127
+    second: universidad-simon-bolivar- blanco_16
+  - first:
+      213: 7117538101953570689
+    second: universidad-simon-bolivar- blanco_17
+  - first:
+      213: 856140644330285728
+    second: universidad-simon-bolivar- blanco_18
+  - first:
+      213: -2311241098927284996
+    second: universidad-simon-bolivar- blanco_19
+  - first:
+      213: 304469047293860392
+    second: universidad-simon-bolivar- blanco_20
+  - first:
+      213: -9213626374222285756
+    second: universidad-simon-bolivar- blanco_21
+  - first:
+      213: 4573125405367706395
+    second: universidad-simon-bolivar- blanco_22
+  - first:
+      213: -4398911064698694078
+    second: universidad-simon-bolivar- blanco_23
+  - first:
+      213: -5246166830091521841
+    second: universidad-simon-bolivar- blanco_24
+  - first:
+      213: 217154599490878624
+    second: universidad-simon-bolivar- blanco_25
+  - first:
+      213: 674328097144066749
+    second: universidad-simon-bolivar- blanco_26
+  - first:
+      213: -4982598112150316176
+    second: universidad-simon-bolivar- blanco_27
+  - first:
+      213: -1623117687547110383
+    second: universidad-simon-bolivar- blanco_28
+  - first:
+      213: 248759885571263014
+    second: universidad-simon-bolivar- blanco_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 269
+        width: 179
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3b97404fbe75f60800000000000000
+      internalID: 8023140694463460263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 388
+        width: 124
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a2fb4b125155130800000000000000
+      internalID: 3554770715389405803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 233
+        width: 150
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16296a167336fdee0800000000000000
+      internalID: -1234158683363569055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 388
+        width: 124
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313e30db36b054ce0800000000000000
+      internalID: -1421717584364707053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 394
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c3c69afe7cee7f0800000000000000
+      internalID: -581307469730661235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 395
+        width: 115
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879d9384227e84620800000000000000
+      internalID: 2758708906191083896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_6
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 397
+        width: 49
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dff766a446601bd0800000000000000
+      internalID: -2661514934740320296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_7
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 396
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f919c2e5e192c60800000000000000
+      internalID: 7793794019964854162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_8
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 397
+        width: 82
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed446ef1d501d50a0800000000000000
+      internalID: -6891333862653803298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_9
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 397
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a308e3f8546121460800000000000000
+      internalID: 7210850441385377850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 394
+        width: 77
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50604ae0b26ceb40800000000000000
+      internalID: 5470856159332163678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_11
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 397
+        width: 48
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d731070ae30cb10800000000000000
+      internalID: 1999667093348515124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_12
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 397
+        width: 115
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3951423580bb25930800000000000000
+      internalID: 4130569452681172371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_13
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 397
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb8c073ffb11a3e0800000000000000
+      internalID: -2044321972895314949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_14
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 397
+        width: 115
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5819d6241ebb570800000000000000
+      internalID: 8483621998504805839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 166
+        width: 477
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86dc9cd1b0f30190800000000000000
+      internalID: -7997283866578725237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_16
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 344
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5eb17c07590c590800000000000000
+      internalID: -7655955054920473127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_17
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 344
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1872042813396c260800000000000000
+      internalID: 7117538101953570689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_18
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 194
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaa417416f91eb00800000000000000
+      internalID: 856140644330285728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_19
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 198
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcd72c4772dcefd0800000000000000
+      internalID: -2311241098927284996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_20
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 196
+        width: 181
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a5d014cf0b93400800000000000000
+      internalID: 304469047293860392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_21
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 194
+        width: 145
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4447f47e0af922080800000000000000
+      internalID: -9213626374222285756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_22
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 195
+        width: 149
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13a144a351077f30800000000000000
+      internalID: 4573125405367706395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_23
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 198
+        width: 114
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246591e61bde3f2c0800000000000000
+      internalID: -4398911064698694078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_24
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 194
+        width: 146
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc035fb301fd137b0800000000000000
+      internalID: -5246166830091521841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_25
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 198
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acfefb25fc730300800000000000000
+      internalID: 217154599490878624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_26
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 198
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db25654e4d1bb5900800000000000000
+      internalID: 674328097144066749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_27
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 197
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b9fba7a614adab0800000000000000
+      internalID: -4982598112150316176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_28
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 198
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd91510178979e0800000000000000
+      internalID: -1623117687547110383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universidad-simon-bolivar- blanco_29
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 198
+        width: 132
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a87d54cc5c37300800000000000000
+      internalID: 248759885571263014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
