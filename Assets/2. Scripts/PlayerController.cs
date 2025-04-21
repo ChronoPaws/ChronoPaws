@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         }
 
         FlipCharacter();
-
+        Attack();
         anim.SetBool("RecibiendoDamage",RecibiendoDamage);
     }
 
@@ -65,6 +65,17 @@ public class PlayerController : MonoBehaviour
     {
         Movement();
         Jump();
+    }
+    public void Attack()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            anim.SetBool("Attack", true);
+        }
+        else
+        {
+            anim.SetBool("Attack", false);
+        }
     }
     public void Jump()
     {
