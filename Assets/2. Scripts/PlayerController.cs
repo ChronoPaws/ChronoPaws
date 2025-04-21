@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -10,6 +11,9 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public float groundCheckRadius;
     public LayerMask WhatIsGround;
+
+    private bool RecibiendoDamage;
+
     Animator anim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,11 +38,44 @@ public class PlayerController : MonoBehaviour
         }
 
         FlipCharacter();
+        Attack();
+        anim.SetBool("RecibiendoDamage",RecibiendoDamage);
     }
+
+    public void RecibeDamage(Vector2 direccion, int cantDamage )
+    {
+        if(!RecibiendoDamage)
+        {
+           RecibiendoDamage = true;
+            Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
+            rb.AddForce(rebote, ForceMode2D.Impulse);
+        }
+        
+
+    }
+
+    public void DesactiveDamage()
+    {
+        RecibiendoDamage=false;
+    }
+
+
+
     private void FixedUpdate()
     {
         Movement();
         Jump();
+    }
+    public void Attack()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            anim.SetBool("Attack", true);
+        }
+        else
+        {
+            anim.SetBool("Attack", false);
+        }
     }
     public void Jump()
     {
