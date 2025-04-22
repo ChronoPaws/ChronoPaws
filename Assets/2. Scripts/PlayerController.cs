@@ -103,13 +103,16 @@ public class PlayerController : MonoBehaviour
 
     public void FlipCharacter()
     {
-        if (rb.linearVelocity.x >= 0)
+        float inputX = Input.GetAxisRaw("Horizontal");
+
+        if (inputX > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
-        else
+        else if (inputX < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
     }
+
 }
