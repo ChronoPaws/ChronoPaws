@@ -266,6 +266,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1360,7 +1373,56 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton enemy_0: 7025154549869057301
+      Skeleton enemy_1: -1052431571235582798
+      Skeleton enemy_10: -4367081648991140790
+      Skeleton enemy_11: 3900501143166408568
+      Skeleton enemy_12: -1326419318096611321
+      Skeleton enemy_13: 4251906360239513419
+      Skeleton enemy_14: 2646334155208643579
+      Skeleton enemy_15: -3712685219517249095
+      Skeleton enemy_16: -2627258213357970557
+      Skeleton enemy_17: 1107983150400447951
+      Skeleton enemy_18: -841477135289833387
+      Skeleton enemy_19: 306834143366845967
+      Skeleton enemy_2: -8249531409998353857
+      Skeleton enemy_20: -6289823522979162965
+      Skeleton enemy_21: 8507390889452736926
+      Skeleton enemy_22: 5801475551444210642
+      Skeleton enemy_23: 2915540044530629201
+      Skeleton enemy_24: -2360470341137857836
+      Skeleton enemy_25: 1529470679888677018
+      Skeleton enemy_26: 3437145983743085951
+      Skeleton enemy_27: 7668837336211610510
+      Skeleton enemy_28: -422267860648895622
+      Skeleton enemy_29: -7213611353175648617
+      Skeleton enemy_3: -5725178719030385771
+      Skeleton enemy_30: 3978353915906207673
+      Skeleton enemy_31: -3238468278916570848
+      Skeleton enemy_32: -8619853186011431500
+      Skeleton enemy_33: 4625816606421005513
+      Skeleton enemy_34: -6819641155109389077
+      Skeleton enemy_35: 5789935519133889292
+      Skeleton enemy_36: 8145106839956665129
+      Skeleton enemy_37: -862854591641819843
+      Skeleton enemy_38: -1492088842765610512
+      Skeleton enemy_39: -8068354712703553056
+      Skeleton enemy_4: -4345535007044184461
+      Skeleton enemy_40: 5015575561642519280
+      Skeleton enemy_41: -3857987652739811041
+      Skeleton enemy_42: 1058141771445020729
+      Skeleton enemy_43: -4619378450006378782
+      Skeleton enemy_44: 6633196986395104502
+      Skeleton enemy_45: -1795847655132535910
+      Skeleton enemy_46: -6102231720097055162
+      Skeleton enemy_47: 4874424467986802822
+      Skeleton enemy_48: 8691063690198233308
+      Skeleton enemy_5: -6608955959846293068
+      Skeleton enemy_6: 2682571728898774543
+      Skeleton enemy_7: 3980739256242589887
+      Skeleton enemy_8: 5994429131288928525
+      Skeleton enemy_9: 8976488520447721068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
