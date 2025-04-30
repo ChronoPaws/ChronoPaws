@@ -1,0 +1,157 @@
+﻿using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float speed, JumpHeight;
+    float velX, velY;
+    Rigidbody2D rb;
+    public Transform groundcheck;
+    public bool isGrounded;
+    public float groundCheckRadius;
+    public LayerMask WhatIsGround;
+
+    private bool RecibiendoDamage;
+
+    Animator anim;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        isGrounded = Physics2D.OverlapCircle(groundcheck.position, groundCheckRadius, WhatIsGround);
+
+        anim.SetBool("Jump", !isGrounded);
+        anim.SetBool("RecibiendoDamage", RecibiendoDamage);
+
+        FlipCharacter();
+
+        HandleInputs(); // ?? Nuevo m�todo que organiza todos los inputs
+    }
+
+    void FixedUpdate()
+    {
+        Movement();
+        Jump();
+    }
+
+    void HandleInputs()
+    {
+        // Ataque con X
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            anim.SetBool("Attack", true);
+        }
+        else
+        {
+            anim.SetBool("Attack", false);
+        }
+
+        // Ataque especial con C
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Debug.Log("Ataque especial"); // L�gica pendiente
+        }
+
+        // Parry con Z
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            Debug.Log("Parry activado"); // L�gica pendiente
+        }
+
+        // Dash con Shift Izq
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Debug.Log("Dash activado"); // L�gica pendiente
+        }
+
+        // Curarse con D
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Debug.Log("Curarse"); // L�gica pendiente
+        }
+
+        // Interactuar con F
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Debug.Log("Interacci�n con el entorno"); // L�gica pendiente
+        }
+
+        // Mostrar previsualizaci�n del mapa con Tab
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            Debug.Log("Mostrar previsualizaci�n de mapa"); // L�gica pendiente
+        }
+
+        // Abrir mapa completo con M
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            Debug.Log("Mapa abierto"); // L�gica pendiente
+        }
+
+        // Inventario con I
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log("Inventario abierto"); // L�gica pendiente
+        }
+    }
+
+    public void RecibeDamage(Vector2 direccion, int cantDamage)
+    {
+        if (!RecibiendoDamage)
+        {
+            RecibiendoDamage = true;
+            Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
+            rb.AddForce(rebote, ForceMode2D.Impulse);
+        }
+    }
+
+    public void DesactiveDamage()
+    {
+        RecibiendoDamage = false;
+    }
+
+    public void Movement()
+    {
+        velX = 0;
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            velX = -1;
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            velX = 1;
+        }
+
+        velY = rb.linearVelocity.y;
+        rb.linearVelocity = new Vector2(velX * speed, velY);
+
+        anim.SetBool("Run", velX != 0);
+    }
+
+    public void Jump()
+    {
+        if (Input.GetButton("Jump") && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpHeight);
+
+            Debug.Log("Saltando");
+        }
+    }
+
+    public void FlipCharacter()
+    {
+        if (velX > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (velX < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+    }
+}
