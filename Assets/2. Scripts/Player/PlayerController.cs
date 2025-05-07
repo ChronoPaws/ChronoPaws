@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class PlayerController : MonoBehaviour
     public LayerMask WhatIsGround;
 
     private bool RecibiendoDamage;
+
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 10f;
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 1f;
+
+    [SerializeField] private TrailRenderer tr;
 
     Animator anim;
 
@@ -28,8 +37,7 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("RecibiendoDamage", RecibiendoDamage);
 
         FlipCharacter();
-
-        HandleInputs(); // ?? Nuevo m�todo que organiza todos los inputs
+        HandleInputs();
     }
 
     void FixedUpdate()
@@ -40,7 +48,8 @@ public class PlayerController : MonoBehaviour
 
     void HandleInputs()
     {
-        // Ataque con X
+        if (isDashing) return;
+
         if (Input.GetKeyDown(KeyCode.X))
         {
             anim.SetBool("Attack", true);
@@ -50,52 +59,45 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("Attack", false);
         }
 
-        // Ataque especial con C
         if (Input.GetKeyDown(KeyCode.C))
         {
-            Debug.Log("Ataque especial"); // L�gica pendiente
+            Debug.Log("Ataque especial");
         }
 
-        // Parry con Z
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Debug.Log("Parry activado"); // L�gica pendiente
+            Debug.Log("Parry activado");
         }
 
-        // Dash con Shift Izq
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
-            Debug.Log("Dash activado"); // L�gica pendiente
+            Debug.Log("Dash activado");
+            StartCoroutine(Dash());
         }
 
-        // Curarse con D
         if (Input.GetKeyDown(KeyCode.D))
         {
-            Debug.Log("Curarse"); // L�gica pendiente
+            Debug.Log("Curarse");
         }
 
-        // Interactuar con F
         if (Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("Interacci�n con el entorno"); // L�gica pendiente
+            Debug.Log("Interacción con el entorno");
         }
 
-        // Mostrar previsualizaci�n del mapa con Tab
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Debug.Log("Mostrar previsualizaci�n de mapa"); // L�gica pendiente
+            Debug.Log("Mostrar previsualización de mapa");
         }
 
-        // Abrir mapa completo con M
         if (Input.GetKeyDown(KeyCode.M))
         {
-            Debug.Log("Mapa abierto"); // L�gica pendiente
+            Debug.Log("Mapa abierto");
         }
 
-        // Inventario con I
         if (Input.GetKeyDown(KeyCode.I))
         {
-            Debug.Log("Inventario abierto"); // L�gica pendiente
+            Debug.Log("Inventario abierto");
         }
     }
 
@@ -116,6 +118,8 @@ public class PlayerController : MonoBehaviour
 
     public void Movement()
     {
+        if (isDashing) return;
+
         velX = 0;
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -135,10 +139,11 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
+        if (isDashing) return;
+
         if (Input.GetButton("Jump") && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpHeight);
-
             Debug.Log("Saltando");
         }
     }
@@ -154,4 +159,31 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
     }
+
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+
+        anim.SetBool("Dash", true); // ✅ Activar animación
+
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+
+        tr.emitting= true;
+
+        yield return new WaitForSeconds(dashingTime);
+
+        tr.emitting = false;
+
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+
+        anim.SetBool("Dash", false); // ✅ Desactivar animación
+
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
+    }
+
 }
