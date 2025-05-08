@@ -10,6 +10,11 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public float groundCheckRadius;
     public LayerMask WhatIsGround;
+    public AudioClip swordSwingClip;
+    public AudioClip dashSoundClip;
+
+    private AudioSource audioSource;
+
 
     private bool RecibiendoDamage;
 
@@ -27,6 +32,8 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     void Update()
@@ -45,6 +52,23 @@ public class PlayerController : MonoBehaviour
         Movement();
         Jump();
     }
+
+    public void PlaySwordSwingSound()
+    {
+        if (swordSwingClip != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(swordSwingClip);
+        }
+    }
+
+    public void PlayDashSound()
+    {
+        if (dashSoundClip != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(dashSoundClip);
+        }
+    }
+
 
     void HandleInputs()
     {
