@@ -49,5 +49,26 @@ TagManager:
   - name: plano 0
     uniqueID: 3785678819
     locked: 0
+  - name: New Layer 3
+    uniqueID: 2133293387
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 2145108005
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 3375560435
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 2192573739
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 2766316583
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 3812708097
+    locked: 0
+  - name: New Layer 9
+    uniqueID: 3431993611
+    locked: 0
   m_RenderingLayers:
   - Default
