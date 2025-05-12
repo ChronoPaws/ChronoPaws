@@ -382,7 +382,7 @@ MonoBehaviour:
   player: {fileID: 741221229}
   detectionRadius: 1
   attackRadius: 0.7
-  speed: 2
+  speed: 3
 --- !u!1001 &1472490439
 PrefabInstance:
   m_ObjectHideFlags: 0
