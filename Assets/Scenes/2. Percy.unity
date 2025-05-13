@@ -2723,6 +2723,11 @@ PrefabInstance:
       addedObject: {fileID: 1466883924}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+--- !u!4 &983014349777452648 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+  m_PrefabInstance: {fileID: 983014349777452647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3617034246741720378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2737,6 +2742,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 663104380941384979, guid: e079721c6621a4b41906794d634b855d, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 983014349777452648}
+    - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
+      propertyPath: attackRadius
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
+      propertyPath: detectionRadius
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8349057540406440821, guid: e079721c6621a4b41906794d634b855d, type: 3}

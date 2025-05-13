@@ -23,6 +23,23 @@ public class EnemyHealth : MonoBehaviour
         {
             StartCoroutine(DamageRoutine(collision.transform));
         }
+        if (collision.CompareTag("Player"))
+        {
+            Parry parry = collision.GetComponent<Parry>();
+            if (parry != null && parry.IsParrying())
+            {
+                StartCoroutine(StunnedByParry());
+                return;
+            }
+        }
+    }
+
+    IEnumerator StunnedByParry()
+    {
+        anim.SetTrigger("ParryStunned"); // animación futura
+        GetComponent<EnemyController>().enabled = false; // desactiva movimiento
+        yield return new WaitForSeconds(2f); // tiempo de stun
+        GetComponent<EnemyController>().enabled = true;
     }
 
     private IEnumerator DamageRoutine(Transform attacker)
