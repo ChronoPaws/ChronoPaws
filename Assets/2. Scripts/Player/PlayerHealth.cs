@@ -43,6 +43,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 isDead = true;
                 anim.SetTrigger("Die");
+                GetComponent<PlayerController>().SetDead(); // 🔒 Bloquear input
                 Debug.Log("Comiste piso");
             }
         }
@@ -60,3 +61,4 @@ public class PlayerHealth : MonoBehaviour
         return isDead;
     }
 }
+

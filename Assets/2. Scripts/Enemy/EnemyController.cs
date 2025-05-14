@@ -30,13 +30,20 @@ public class EnemyController : MonoBehaviour
     {
         if (player == null || isAttacking) return;
 
+        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+        if (playerHealth != null && playerHealth.IsDead())
+        {
+            rb.linearVelocity = Vector2.zero;
+            anim.SetFloat("Speed", 0);
+            return;
+        }
+
         float distance = Vector2.Distance(transform.position, player.position);
 
         if (distance <= detectionRadius)
         {
             if (distance > stopDistance)
             {
-                // Movimiento hacia el jugador
                 Vector2 direction = (player.position - transform.position).normalized;
                 rb.linearVelocity = new Vector2(direction.x * speed, rb.linearVelocity.y);
                 anim.SetFloat("Speed", Mathf.Abs(direction.x));
@@ -46,7 +53,6 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                // Está cerca: detenerse y atacar si el cooldown lo permite
                 rb.linearVelocity = Vector2.zero;
                 anim.SetFloat("Speed", 0);
 
@@ -58,7 +64,6 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            // Fuera del radio de detección
             rb.linearVelocity = Vector2.zero;
             anim.SetFloat("Speed", 0);
         }
@@ -80,10 +85,12 @@ public class EnemyController : MonoBehaviour
     {
         if (player == null) return;
 
+        PlayerHealth ph = player.GetComponent<PlayerHealth>();
+        if (ph == null || ph.IsDead()) return;
+
         float hitDistance = 1.2f;
         if (Vector2.Distance(transform.position, player.position) <= hitDistance)
         {
-            PlayerHealth ph = player.GetComponent<PlayerHealth>();
             Parry parry = player.GetComponent<Parry>();
 
             if (parry != null && parry.IsParrying())
@@ -92,10 +99,7 @@ public class EnemyController : MonoBehaviour
                 return;
             }
 
-            if (ph != null)
-            {
-                ph.TakeDamage(GetComponent<Enemy>().damageToGive, transform);
-            }
+            ph.TakeDamage(GetComponent<Enemy>().damageToGive, transform);
         }
     }
 
@@ -121,8 +125,8 @@ public class EnemyController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
-
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, stopDistance);
     }
 }
+
