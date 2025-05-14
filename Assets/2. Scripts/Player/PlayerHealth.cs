@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public Image healthImage;
     private bool isInmune = false;
     private bool isDead = false;
-    public float KnockbackForceX; 
+    public float KnockbackForceX;
     public float KnockbackForceY;
 
     private Rigidbody2D rb;
@@ -28,30 +28,23 @@ public class PlayerHealth : MonoBehaviour
         health = Mathf.Clamp(health, 0, maxHealth);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void TakeDamage(float damage, Transform attacker)
     {
-        if (collision.CompareTag("Enemy") && !isInmune && !isDead)
+        if (!isInmune && !isDead)
         {
-            health -= collision.GetComponent <Enemy>().damageToGive;
+            health -= damage;
             anim.SetTrigger("Damage");
             StartCoroutine(Inmunity());
 
-            if(collision.transform.position.x > transform.position.x)
-            {
-                rb.AddForce(new Vector2(-KnockbackForceX, KnockbackForceY), ForceMode2D.Force);
-            }
-            else
-            {
-                rb.AddForce(new Vector2(KnockbackForceX, KnockbackForceY), ForceMode2D.Force);
-            }
+            Vector2 knockDir = (transform.position - attacker.position).normalized;
+            rb.AddForce(new Vector2(knockDir.x * KnockbackForceX, KnockbackForceY), ForceMode2D.Force);
+
             if (health <= 0)
             {
                 isDead = true;
                 anim.SetTrigger("Die");
-                // Podés llamar Game Over o bloquear más lógica
                 Debug.Log("Comiste piso");
             }
-
         }
     }
 

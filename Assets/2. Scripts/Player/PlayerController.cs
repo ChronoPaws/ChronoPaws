@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask WhatIsGround;
     public AudioClip swordSwingClip;
     public AudioClip dashSoundClip;
+    Parry parry;
 
     private AudioSource audioSource;
 
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        parry = GetComponent<Parry>();
 
     }
 
