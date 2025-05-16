@@ -1469,6 +1469,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa81ab07ab5d5df4899c7147f1f4da1e, type: 3}
+--- !u!1 &785694923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5265820414576134783, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+  m_PrefabInstance: {fileID: 983014349777452647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &871891352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,12 +2665,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 469648474151417873, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+      propertyPath: health
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 469648474151417873, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+      propertyPath: maxHealth
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 469648474151417873, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
       propertyPath: healthImage
       value: 
       objectReference: {fileID: 681656844}
     - target: {fileID: 5265820414576134783, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2721,13 +2746,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4904951424321612555, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1466883924}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5265820414576134783, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 983014349777452649}
   m_SourcePrefab: {fileID: 100100000, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
 --- !u!4 &983014349777452648 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
   m_PrefabInstance: {fileID: 983014349777452647}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &983014349777452649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785694923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbba92da5b8db8e438ecea27ed7c9889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parryWindow: 0.3
 --- !u!1001 &3617034246741720378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2745,11 +2786,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 983014349777452648}
     - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
       propertyPath: attackRadius
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}
+      propertyPath: stopDistance
       value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3348831261919912124, guid: e079721c6621a4b41906794d634b855d, type: 3}

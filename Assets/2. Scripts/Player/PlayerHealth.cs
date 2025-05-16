@@ -15,11 +15,18 @@ public class PlayerHealth : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    public GameOverManager gameOverManager;
+
     void Start()
     {
         health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        if (gameOverManager == null)
+        {
+            gameOverManager = FindFirstObjectByType<GameOverManager>();
+        }
     }
 
     void Update()
@@ -43,7 +50,8 @@ public class PlayerHealth : MonoBehaviour
             {
                 isDead = true;
                 anim.SetTrigger("Die");
-                GetComponent<PlayerController>().SetDead(); // 🔒 Bloquear input
+                GetComponent<PlayerController>().SetDead();
+                gameOverManager.ShowGameOver();
                 Debug.Log("Comiste piso");
             }
         }
