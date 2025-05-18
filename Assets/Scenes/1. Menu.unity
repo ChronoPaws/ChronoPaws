@@ -4266,6 +4266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameOverManager
       objectReference: {fileID: 0}
+    - target: {fileID: 998685404503635982, guid: fe1e07cfb07d6374ea5f4663481eaa93, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8815457990056638273, guid: fe1e07cfb07d6374ea5f4663481eaa93, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1080.6542
@@ -4330,6 +4334,10 @@ PrefabInstance:
     - target: {fileID: 3826619096867016882, guid: c5d70c140aee752448d0b4d2f77037ed, type: 3}
       propertyPath: m_Name
       value: GameOverPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3826619096867016882, guid: c5d70c140aee752448d0b4d2f77037ed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6533485299478029258, guid: c5d70c140aee752448d0b4d2f77037ed, type: 3}
       propertyPath: m_Pivot.x
