@@ -9,8 +9,13 @@ public class GameOverManager : MonoBehaviour
     {
         if (gameOverPanel != null)
         {
+            Debug.Log("Mostrando Game Over Panel");
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f; // Pausar el juego
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Debug.LogWarning("GameOverPanel no está asignado en GameOverManager.");
         }
     }
 

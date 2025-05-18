@@ -51,9 +51,9 @@ public class PlayerHealth : MonoBehaviour
                 isDead = true;
                 anim.SetTrigger("Die");
                 GetComponent<PlayerController>().SetDead();
-                gameOverManager.ShowGameOver();
-                Debug.Log("Comiste piso");
+                StartCoroutine(DelayedGameOver()); //  Ejecutamos una coroutine
             }
+
         }
     }
 
@@ -67,6 +67,15 @@ public class PlayerHealth : MonoBehaviour
     public bool IsDead()
     {
         return isDead;
+    }
+    IEnumerator DelayedGameOver()
+    {
+        yield return new WaitForSeconds(1f); //  Delay de 2 segundos
+
+        if (gameOverManager != null)
+        {
+            gameOverManager.ShowGameOver();
+        }
     }
 }
 
