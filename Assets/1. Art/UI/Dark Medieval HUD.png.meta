@@ -157,37 +157,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dark Medieval HUD_7
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 86
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13825fd9a5a0328f0800000000000000
-      internalID: -566597743805126607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dark Medieval HUD_0
+      name: Porta Retrato PJ
       rect:
         serializedVersion: 2
         x: 241
-        y: 415
+        y: 416
         width: 287
         height: 296
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +182,12 @@ TextureImporter:
       name: Dark Medieval HUD_1
       rect:
         serializedVersion: 2
-        x: 566
+        x: 567
         y: 590
         width: 104
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,7 +209,7 @@ TextureImporter:
         width: 102
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,7 +231,7 @@ TextureImporter:
         width: 100
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,13 +245,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_4
+      name: Botones
       rect:
         serializedVersion: 2
-        x: 195
-        y: 723
-        width: 1086
-        height: 195
+        x: 206
+        y: 727
+        width: 1068
+        height: 191
       alignment: 9
       pivot: {x: 0.49642196, y: 0.5132847}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,7 +267,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_5
+      name: Barra Vida Boss
       rect:
         serializedVersion: 2
         x: 240
@@ -297,7 +275,7 @@ TextureImporter:
         width: 968
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_6
+      name: Stamina
       rect:
         serializedVersion: 2
         x: 569
@@ -319,7 +297,7 @@ TextureImporter:
         width: 613
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_8
+      name: Barra Vida
       rect:
         serializedVersion: 2
         x: 564
@@ -341,7 +319,7 @@ TextureImporter:
         width: 653
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_9
+      name: Barra Mana
       rect:
         serializedVersion: 2
         x: 562
@@ -363,7 +341,7 @@ TextureImporter:
         width: 739
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,7 +355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_10
+      name: Barra Stamina
       rect:
         serializedVersion: 2
         x: 563
@@ -385,7 +363,7 @@ TextureImporter:
         width: 657
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_11
+      name: "Da\xF1o"
       rect:
         serializedVersion: 2
         x: 567
@@ -407,7 +385,7 @@ TextureImporter:
         width: 626
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_12
+      name: Vida
       rect:
         serializedVersion: 2
         x: 565
@@ -429,7 +407,7 @@ TextureImporter:
         width: 621
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dark Medieval HUD_13
+      name: Mana
       rect:
         serializedVersion: 2
         x: 564
@@ -451,7 +429,7 @@ TextureImporter:
         width: 709
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -460,6 +438,94 @@ TextureImporter:
       bones: []
       spriteID: 4b639fcfb0092cd47a767f240ffb3083
       internalID: -1161625468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo Barra
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 581
+        width: 311
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60c46ae3e7e684aaac5cf773de1f4e
+      internalID: 2038041081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro 3
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 93
+        width: 371
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ddf62f058b05e4d9f72c4a6e5e2ded
+      internalID: -635587237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro 1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 94
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a77ccc2a97c5a842a6f4a0901f58abc
+      internalID: 1169093701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro 2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 94
+        width: 171
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0130b18298b89c4fb64683eeb2b166f
+      internalID: 1517227184
       vertices: []
       indices: 
       edges: []
@@ -478,20 +544,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dark Medieval HUD_0: 212144329
+      Barra Mana: -456641495
+      Barra Stamina: 873225171
+      Barra Vida: 634529876
+      Barra Vida Boss: -1755849994
+      Botones: -569223221
+      Cuadro 1: 1169093701
+      Cuadro 2: 1517227184
+      Cuadro 3: -635587237
       Dark Medieval HUD_1: -1246634138
-      Dark Medieval HUD_10: 873225171
-      Dark Medieval HUD_11: 2033011515
-      Dark Medieval HUD_12: 1615152167
-      Dark Medieval HUD_13: -1161625468
       Dark Medieval HUD_2: 60408578
       Dark Medieval HUD_20: 2079437108
       Dark Medieval HUD_3: 1458735140
-      Dark Medieval HUD_4: -569223221
-      Dark Medieval HUD_5: -1755849994
-      Dark Medieval HUD_6: -1537945423
-      Dark Medieval HUD_8: 634529876
-      Dark Medieval HUD_9: -456641495
+      "Da\xF1o": 2033011515
+      Fondo Barra: 2038041081
+      Mana: -1161625468
+      Porta Retrato PJ: 212144329
+      Stamina: -1537945423
+      Vida: 1615152167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
