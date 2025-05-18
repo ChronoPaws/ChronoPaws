@@ -136,12 +136,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -174,7 +174,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -184,6 +184,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -959,7 +985,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BG 2_0: -8065282898222621404
+      BG 2_1: -5475913757891099400
+      BG 2_10: 3394602216623299974
+      BG 2_11: 3313392702974595520
+      BG 2_12: 5957023916088856865
+      BG 2_13: 1921223766974012622
+      BG 2_14: 2561350885866104618
+      BG 2_15: -3283338340385393726
+      BG 2_16: 8777157805347568515
+      BG 2_17: -4008578133200273154
+      BG 2_18: -5435425855784368691
+      BG 2_19: -7500909073592351955
+      BG 2_2: -1607784227320098197
+      BG 2_20: 1842119567578208582
+      BG 2_21: 1577309213123760387
+      BG 2_22: -4566372578543313972
+      BG 2_23: -534264947485529396
+      BG 2_24: 3285145598822736255
+      BG 2_25: 3209156627323918834
+      BG 2_26: 7852566577727829171
+      BG 2_27: -2426677093780082726
+      BG 2_28: 4896614503902165069
+      BG 2_29: -1470786111249228730
+      BG 2_3: 1340199804040591767
+      BG 2_30: -4477124194628614630
+      BG 2_31: 5902444239456015538
+      BG 2_32: -3048937646528915767
+      BG 2_33: 3854092448048972931
+      BG 2_4: 1856672069623614509
+      BG 2_5: 5671036106390095467
+      BG 2_6: 5960591632203432505
+      BG 2_7: 3012372251112983340
+      BG 2_8: -660207734134616896
+      BG 2_9: 2459722831003349934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

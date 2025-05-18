@@ -159,6 +159,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -659,7 +685,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Decoration_night_0: 428467306670457564
+      Decoration_night_1: 4763447086902762724
+      Decoration_night_10: -6640325751616155063
+      Decoration_night_11: 668501895345682170
+      Decoration_night_12: -807361417782352420
+      Decoration_night_13: -6287846279129713059
+      Decoration_night_14: -2610481518711180067
+      Decoration_night_15: -205945210212096537
+      Decoration_night_16: -6499977239091388423
+      Decoration_night_17: -8338966816441468724
+      Decoration_night_18: 7480056836468391073
+      Decoration_night_19: -7206892017480795929
+      Decoration_night_2: -811076988615931179
+      Decoration_night_20: 3626795084138185324
+      Decoration_night_21: -8756519065168568052
+      Decoration_night_3: -5773298587060383898
+      Decoration_night_4: -5607716242254984284
+      Decoration_night_5: -5011419880960526237
+      Decoration_night_6: 2476148464799633666
+      Decoration_night_7: -5757652360834254307
+      Decoration_night_8: -6513734219903530376
+      Decoration_night_9: -3930277991932301992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
