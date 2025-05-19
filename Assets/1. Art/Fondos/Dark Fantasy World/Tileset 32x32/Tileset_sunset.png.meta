@@ -126,6 +126,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset_sunset_0: -2292644149341412164
+      Tileset_sunset_1: 3307699822969875073
+      Tileset_sunset_10: -2106460354444099550
+      Tileset_sunset_2: -1586173161699684008
+      Tileset_sunset_3: 9096204053668463272
+      Tileset_sunset_4: -1376775998569973526
+      Tileset_sunset_5: 6442520623251606920
+      Tileset_sunset_6: 808946027332951913
+      Tileset_sunset_7: -6572411263957856259
+      Tileset_sunset_8: -6571656818730149564
+      Tileset_sunset_9: 3664634138656935735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

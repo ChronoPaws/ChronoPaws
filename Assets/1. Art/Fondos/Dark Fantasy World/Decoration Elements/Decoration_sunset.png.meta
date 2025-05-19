@@ -159,6 +159,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -659,7 +685,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Decoration_sunset_0: 1579678284337724375
+      Decoration_sunset_1: -9136355684367238576
+      Decoration_sunset_10: 795183635098016573
+      Decoration_sunset_11: 4097971171799252395
+      Decoration_sunset_12: 2870191261193348087
+      Decoration_sunset_13: 2062952146925805120
+      Decoration_sunset_14: -3863349413793780677
+      Decoration_sunset_15: -9025644664040260361
+      Decoration_sunset_16: -7387894411953832831
+      Decoration_sunset_17: 210546576996620035
+      Decoration_sunset_18: 206383209086691765
+      Decoration_sunset_19: 5759255880993683108
+      Decoration_sunset_2: 2531211605416056034
+      Decoration_sunset_20: -4386151765798223868
+      Decoration_sunset_21: -3102408326634407198
+      Decoration_sunset_3: 998834052544876966
+      Decoration_sunset_4: -269244671938088150
+      Decoration_sunset_5: 708656755858188929
+      Decoration_sunset_6: -220191177204871687
+      Decoration_sunset_7: 8006030853958825754
+      Decoration_sunset_8: -4067929698118490404
+      Decoration_sunset_9: 2701595926067281190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
