@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ParallaxMovement : MonoBehaviour
 {
-    Transform cam; //Main Camera
+    Transform cam;
     Vector3 camStartPos;
-    float distance; //jarak antara start camera posisi dan current posisi
+    float distance;
 
     GameObject[] backgrounds;
     Material[] mat;
@@ -17,7 +17,6 @@ public class ParallaxMovement : MonoBehaviour
     [Range(0.01f, 1f)]
     public float parallaxSpeed;
 
-    // Start is called before the first frame update
     void Start()
     {
         cam = Camera.main.transform;
@@ -39,7 +38,7 @@ public class ParallaxMovement : MonoBehaviour
 
     void BackSpeedCalculate(int backCount)
     {
-        for (int i = 0; i < backCount; i++) //find the farthest background
+        for (int i = 0; i < backCount; i++)
         {
             if ((backgrounds[i].transform.position.z - cam.position.z) > farthestBack)
             {
@@ -47,14 +46,16 @@ public class ParallaxMovement : MonoBehaviour
             }
         }
 
-        for (int i = 0; i < backCount; i++) //set the speed of bacground
+        for (int i = 0; i < backCount; i++)
         {
             backSpeed[i] = 1 - (backgrounds[i].transform.position.z - cam.position.z) / farthestBack;
         }
     }
 
-    private void LateUpdate()
+    void LateUpdate()
     {
+        if (cam == null) return;
+
         distance = cam.position.x - camStartPos.x;
         transform.position = new Vector3(cam.position.x - 1, transform.position.y, 9.92f);
 
@@ -63,5 +64,11 @@ public class ParallaxMovement : MonoBehaviour
             float speed = backSpeed[i] * parallaxSpeed;
             mat[i].SetTextureOffset("_MainTex", new Vector2(distance, 0) * speed);
         }
+    }
+
+    public void SetCamera(Transform newCamera)
+    {
+        cam = newCamera;
+        camStartPos = cam.position;
     }
 }
