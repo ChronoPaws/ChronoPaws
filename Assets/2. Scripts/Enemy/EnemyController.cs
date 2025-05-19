@@ -1,17 +1,24 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class EnemyController : MonoBehaviour
 {
     public Transform player;
-    public float detectionRadius = 5.0f;
-    public float attackRadius = 1.0f; // Nuevo: distancia para atacar
+
+    [Header("Movimiento")]
     public float speed = 2.0f;
+    public float detectionRadius = 5.0f;
+    public float stopDistance = 1.5f;
+
+    [Header("Ataque")]
+    public float attackCooldown = 2.0f;
+    private float lastAttackTime = -Mathf.Infinity;
+    private bool isAttacking = false;
+    public bool isStriking = false;
 
     private Rigidbody2D rb;
-    private Vector2 movement;
     private Animator anim;
     private bool facingRight = true;
-    private bool isAttacking = false; // Para que no ataque varias veces a la vez
 
     void Start()
     {
@@ -21,47 +28,87 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if (player == null || isAttacking) return;
 
-        if (distanceToPlayer < attackRadius && !isAttacking)
+        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+        if (playerHealth != null && playerHealth.IsDead())
         {
-            Attack();
-            movement = Vector2.zero; // Se queda quieto al atacar
+            rb.linearVelocity = Vector2.zero;
+            anim.SetFloat("Speed", 0);
+            return;
         }
-        else if (distanceToPlayer < detectionRadius)
-        {
-            Vector2 direction = (player.position - transform.position).normalized;
-            movement = new Vector2(direction.x, 0);
 
-            if (direction.x > 0 && !facingRight)
+        float distance = Vector2.Distance(transform.position, player.position);
+
+        if (distance <= detectionRadius)
+        {
+            if (distance > stopDistance)
             {
-                Flip();
+                Vector2 direction = (player.position - transform.position).normalized;
+                rb.linearVelocity = new Vector2(direction.x * speed, rb.linearVelocity.y);
+                anim.SetFloat("Speed", Mathf.Abs(direction.x));
+
+                if (direction.x > 0 && !facingRight) Flip();
+                else if (direction.x < 0 && facingRight) Flip();
             }
-            else if (direction.x < 0 && facingRight)
+            else
             {
-                Flip();
+                rb.linearVelocity = Vector2.zero;
+                anim.SetFloat("Speed", 0);
+
+                if (Time.time >= lastAttackTime + attackCooldown)
+                {
+                    StartAttack();
+                }
             }
         }
         else
         {
-            movement = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+            anim.SetFloat("Speed", 0);
         }
-
-        rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
-
-        anim.SetFloat("Speed", Mathf.Abs(movement.x));
     }
 
-    void Attack()
+    void StartAttack()
     {
         isAttacking = true;
+        lastAttackTime = Time.time;
         anim.SetTrigger("Attack");
-
-        // Puedes volver a permitir atacar después de un tiempo
-        Invoke(nameof(ResetAttack), 1.0f); // 1 segundo de "cooldown"
     }
 
-    void ResetAttack()
+    public void StartStrike()
+    {
+        isStriking = true;
+    }
+
+    public void DealDamage()
+    {
+        if (player == null) return;
+
+        PlayerHealth ph = player.GetComponent<PlayerHealth>();
+        if (ph == null || ph.IsDead()) return;
+
+        float hitDistance = 1.2f;
+        if (Vector2.Distance(transform.position, player.position) <= hitDistance)
+        {
+            Parry parry = player.GetComponent<Parry>();
+
+            if (parry != null && parry.IsParrying())
+            {
+                Debug.Log("Ataque parryeado");
+                return;
+            }
+
+            ph.TakeDamage(GetComponent<Enemy>().damageToGive, transform);
+        }
+    }
+
+    public void EndStrike()
+    {
+        isStriking = false;
+    }
+
+    public void EndAttack()
     {
         isAttacking = false;
     }
@@ -78,8 +125,8 @@ public class EnemyController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
-
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, attackRadius);
+        Gizmos.DrawWireSphere(transform.position, stopDistance);
     }
 }
+
