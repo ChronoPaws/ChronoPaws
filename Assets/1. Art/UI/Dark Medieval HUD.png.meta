@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: b82d71cc61e78354da7e002be0848593
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8796623847841593880
+    second: Dark Medieval HUD_0
+  - first:
+      213: -2137794373325811584
+    second: Dark Medieval HUD_1
+  - first:
+      213: -6454273680851717030
+    second: Dark Medieval HUD_2
+  - first:
+      213: 4481086043907015681
+    second: Dark Medieval HUD_3
+  - first:
+      213: 2745258010949940777
+    second: Dark Medieval HUD_4
+  - first:
+      213: 966017798943444219
+    second: Dark Medieval HUD_5
+  - first:
+      213: 8847727314768200006
+    second: Dark Medieval HUD_6
+  - first:
+      213: -566597743805126607
+    second: Dark Medieval HUD_7
+  - first:
+      213: -7425132914374332187
+    second: Dark Medieval HUD_8
+  - first:
+      213: -398471318462600221
+    second: Dark Medieval HUD_9
+  - first:
+      213: -5747219358240833748
+    second: Dark Medieval HUD_10
+  - first:
+      213: -2080560288686970428
+    second: Dark Medieval HUD_11
+  - first:
+      213: -1271587267472997521
+    second: Dark Medieval HUD_12
+  - first:
+      213: 1763020957963222070
+    second: Dark Medieval HUD_13
+  - first:
+      213: -9222828311082799815
+    second: Dark Medieval HUD_14
+  - first:
+      213: 152952536699324847
+    second: Dark Medieval HUD_15
+  - first:
+      213: -3759771757308605253
+    second: Dark Medieval HUD_16
+  - first:
+      213: 5404461510603126295
+    second: Dark Medieval HUD_17
+  - first:
+      213: -768688201596980621
+    second: Dark Medieval HUD_18
+  - first:
+      213: -4025424213537995843
+    second: Dark Medieval HUD_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Porta Retrato PJ
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 416
+        width: 287
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4791d5ff7f4292842b6e4b5784400756
+      internalID: 212144329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Medieval HUD_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 590
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13d9f47af6b5c24da8ed0a0b80bf72c
+      internalID: -1246634138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Medieval HUD_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 591
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b284a3c7d4d73634880e36a484f8b42c
+      internalID: 60408578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Medieval HUD_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 590
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e33ffbe17c9d4cbcc21791dcb9a68
+      internalID: 1458735140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 727
+        width: 1068
+        height: 191
+      alignment: 9
+      pivot: {x: 0.49642196, y: 0.5132847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d6f77cf660cef4a95774a09519b92d
+      internalID: -569223221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra Vida Boss
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 218
+        width: 968
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2cdb5110e3a6a40b793db0af2b67a1
+      internalID: -1755849994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamina
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 266
+        width: 613
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222d4e418148f17418426937e46e7fe2
+      internalID: -1537945423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra Vida
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 528
+        width: 653
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae4b0acd97fe4e4fa1032e9bb5540df
+      internalID: 634529876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra Mana
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 475
+        width: 739
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0067c98310f89b448d702d8881843e5
+      internalID: -456641495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra Stamina
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 422
+        width: 657
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eb49b0c7c7ea644ae8bcd498d037d0
+      internalID: 873225171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Da\xF1o"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 381
+        width: 626
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcf3442827591f4e8ba6b98ca5271bf
+      internalID: 2033011515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 340
+        width: 621
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6d44f61aa070f40a7873aa8d510b2a
+      internalID: 1615152167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mana
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 300
+        width: 709
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b639fcfb0092cd47a767f240ffb3083
+      internalID: -1161625468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo Barra
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 581
+        width: 311
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60c46ae3e7e684aaac5cf773de1f4e
+      internalID: 2038041081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro 3
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 93
+        width: 371
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ddf62f058b05e4d9f72c4a6e5e2ded
+      internalID: -635587237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro 1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 94
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a77ccc2a97c5a842a6f4a0901f58abc
+      internalID: 1169093701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro 2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 94
+        width: 171
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0130b18298b89c4fb64683eeb2b166f
+      internalID: 1517227184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a68d21e7ac2caf40bff7fa8b8b7c776
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barra Mana: -456641495
+      Barra Stamina: 873225171
+      Barra Vida: 634529876
+      Barra Vida Boss: -1755849994
+      Botones: -569223221
+      Cuadro 1: 1169093701
+      Cuadro 2: 1517227184
+      Cuadro 3: -635587237
+      Dark Medieval HUD_1: -1246634138
+      Dark Medieval HUD_2: 60408578
+      Dark Medieval HUD_20: 2079437108
+      Dark Medieval HUD_3: 1458735140
+      "Da\xF1o": 2033011515
+      Fondo Barra: 2038041081
+      Mana: -1161625468
+      Porta Retrato PJ: 212144329
+      Stamina: -1537945423
+      Vida: 1615152167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
