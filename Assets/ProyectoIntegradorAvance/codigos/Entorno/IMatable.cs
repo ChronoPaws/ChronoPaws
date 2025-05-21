@@ -1,0 +1,6 @@
+interface IMatable
+{
+    void hacerDaño();
+
+
+}

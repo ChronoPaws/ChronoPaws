@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Muralla 2 DIA_0: 2106593213071347029
+      Muralla 2 DIA_1: -1006210190489061136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
