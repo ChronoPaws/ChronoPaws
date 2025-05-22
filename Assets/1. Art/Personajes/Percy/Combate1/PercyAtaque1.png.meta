@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 63a754a9b2c28a448b1ce2793a3d9e44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3662017252078286470
+    second: PercyAtaque1_0
+  - first:
+      213: 4520205470107407054
+    second: PercyAtaque1_1
+  - first:
+      213: -4801609438651856526
+    second: PercyAtaque1_2
+  - first:
+      213: -1407936223029248763
+    second: PercyAtaque1_3
+  - first:
+      213: 2091232313364611560
+    second: PercyAtaque1_4
+  - first:
+      213: 1952007138433275358
+    second: PercyAtaque1_5
+  - first:
+      213: -1892060362642972905
+    second: PercyAtaque1_6
+  - first:
+      213: 607436101648015630
+    second: PercyAtaque1_7
+  - first:
+      213: -6995286251802513771
+    second: PercyAtaque1_8
+  - first:
+      213: 8620034270501976686
+    second: PercyAtaque1_9
+  - first:
+      213: 7686433543352929717
+    second: PercyAtaque1_10
+  - first:
+      213: -3931481446986718316
+    second: PercyAtaque1_11
+  - first:
+      213: 8436218384802219039
+    second: PercyAtaque1_12
+  - first:
+      213: 8572825895041013268
+    second: PercyAtaque1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PercyAtaque1_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 249
+        height: 334
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6867a7fd94912d230800000000000000
+      internalID: 3662017252078286470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 194
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2978d0deefabe30800000000000000
+      internalID: 4520205470107407054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 0
+        width: 263
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2794ef2d7a14d5db0800000000000000
+      internalID: -4801609438651856526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_3
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 449
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dbfe7f671067ce0800000000000000
+      internalID: -1407936223029248763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_4
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 0
+        width: 448
+        height: 335
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e18aec85bc850d10800000000000000
+      internalID: 2091232313364611560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_5
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 0
+        width: 400
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed59755762ce61b10800000000000000
+      internalID: 1952007138433275358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_6
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1
+        width: 365
+        height: 334
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f911fef1d0eb5e0800000000000000
+      internalID: -1892060362642972905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_7
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 169
+        width: 12
+        height: 15
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e016a768aeb0e6800800000000000000
+      internalID: 607436101648015630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_8
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 134
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e23237730cbee90800000000000000
+      internalID: -6995286251802513771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_9
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 106
+        width: 6
+        height: 13
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ab6f48f7380a770800000000000000
+      internalID: 8620034270501976686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_10
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 89
+        width: 8
+        height: 12
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdc23d4592bbaa60800000000000000
+      internalID: 7686433543352929717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_11
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 80
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493615f24729079c0800000000000000
+      internalID: -3931481446986718316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_12
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 69
+        width: 8
+        height: 19
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1481c98ce7731570800000000000000
+      internalID: 8436218384802219039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PercyAtaque1_13
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 61
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41690331bbbc8f670800000000000000
+      internalID: 8572825895041013268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a0241e86e6bb17047bc8c70d50e464e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PercyAtaque1_0: 3662017252078286470
+      PercyAtaque1_1: 4520205470107407054
+      PercyAtaque1_10: 7686433543352929717
+      PercyAtaque1_11: -3931481446986718316
+      PercyAtaque1_12: 8436218384802219039
+      PercyAtaque1_13: 8572825895041013268
+      PercyAtaque1_2: -4801609438651856526
+      PercyAtaque1_3: -1407936223029248763
+      PercyAtaque1_4: 2091232313364611560
+      PercyAtaque1_5: 1952007138433275358
+      PercyAtaque1_6: -1892060362642972905
+      PercyAtaque1_7: 607436101648015630
+      PercyAtaque1_8: -6995286251802513771
+      PercyAtaque1_9: 8620034270501976686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
