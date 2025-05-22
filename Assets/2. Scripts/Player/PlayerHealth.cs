@@ -87,6 +87,15 @@ public class PlayerHealth : MonoBehaviour
         GetComponent<PlayerController>().SetDead();
         StartCoroutine(DelayedGameOver());
     }
+
+    public void Heal(float amount)
+    {
+        if (!isDead && health < maxHealth)
+        {
+            health += amount;
+            health = Mathf.Clamp(health, 0, maxHealth);
+        }
+    }
 }
 
 
