@@ -77,5 +77,17 @@ public class PlayerHealth : MonoBehaviour
             gameOverManager.ShowGameOver();
         }
     }
+
+    public void InstantKill(Transform attacker)
+    {
+        if (isDead) return;
+        health = 0;
+        anim.SetTrigger("Die");
+        isDead = true;
+        GetComponent<PlayerController>().SetDead();
+        StartCoroutine(DelayedGameOver());
+    }
 }
+
+
 
