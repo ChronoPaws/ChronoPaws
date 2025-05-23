@@ -88,7 +88,8 @@ public class EnemyController : MonoBehaviour
         PlayerHealth ph = player.GetComponent<PlayerHealth>();
         if (ph == null || ph.IsDead()) return;
 
-        float hitDistance = 1.2f;
+        float hitDistance = 1.8f;  //                                                           HitDistance
+
         if (Vector2.Distance(transform.position, player.position) <= hitDistance)
         {
             Parry parry = player.GetComponent<Parry>();
