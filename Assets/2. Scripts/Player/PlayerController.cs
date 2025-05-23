@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (isDead) return;
 
         isGrounded = Physics2D.OverlapCircle(groundcheck.position, groundCheckRadius, WhatIsGround);
 
@@ -53,7 +52,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isDead) return;
 
         Movement();
         Jump();
@@ -134,9 +132,10 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing) return;
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButton("Jump") && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpHeight);
+            Debug.Log("Saltando");
             Debug.Log("Saltando");
         }
     }
@@ -198,6 +197,26 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("MovingPlatform"))
+        {
+            StartCoroutine(SetParentDelayed(collision.transform));
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("MovingPlatform"))
+        {
+            transform.parent = null;
+        }
+    }
+    IEnumerator SetParentDelayed(Transform newParent)
+    {
+        yield return null; // Espera un frame para que Unity termine de activar/desactivar
+        transform.parent = newParent;
     }
 
     public void PlaySwordSwingSound()

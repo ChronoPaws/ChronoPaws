@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6975925652358221644}
   - component: {fileID: 1750608379723641980}
   - component: {fileID: 5571152848882508214}
-  - component: {fileID: 8091849149600338828}
+  - component: {fileID: 3364614753731606088}
   m_Layer: 0
   m_Name: frambuesa_0
   m_TagString: Untagged
@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb67b7a167a206e49b74d98414407d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &8091849149600338828
-CircleCollider2D:
+--- !u!61 &3364614753731606088
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -135,5 +135,15 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.06642002}
-  m_Radius: 0.13670498
+  m_Offset: {x: 0, y: -0.076141335}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.40625}
+    newSize: {x: 2.24, y: 3.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.28, y: 0.25396734}
+  m_EdgeRadius: 0

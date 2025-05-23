@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class coleccion : MonoBehaviour
@@ -8,6 +7,13 @@ public class coleccion : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            // prevenir doble contacto
+            GetComponent<Collider2D>().enabled = false;
+            if (CollectionManager.Instance != null)
+            {
+                CollectionManager.Instance.AddCollectible();
+            }
+
             Destroy(gameObject);
         }
     }
