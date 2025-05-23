@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    public PlayerSoundController PlayerSoundController;
+
     public GameOverManager gameOverManager;
 
     void Start()
@@ -40,11 +42,16 @@ public class PlayerHealth : MonoBehaviour
         if (!isInmune && !isDead)
         {
             health -= damage;
+            
             anim.SetTrigger("Damage");
+            
+            
             StartCoroutine(Inmunity());
 
             Vector2 knockDir = (transform.position - attacker.position).normalized;
             rb.AddForce(new Vector2(knockDir.x * KnockbackForceX, KnockbackForceY), ForceMode2D.Force);
+
+            
 
             if (health <= 0)
             {

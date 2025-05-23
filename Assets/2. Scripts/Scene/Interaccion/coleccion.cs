@@ -9,11 +9,22 @@ public class coleccion : MonoBehaviour
         {
             // prevenir doble contacto
             GetComponent<Collider2D>().enabled = false;
-            if (CollectionManager.Instance != null)
+
+          
+                // Sumar al contador
+        if (CollectionManager.Instance != null)
             {
                 CollectionManager.Instance.AddCollectible();
             }
 
+            // Reproducir sonido desde el Player
+            PlayerSoundController controller = collision.GetComponent<PlayerSoundController>();
+            if (controller != null)
+            {
+                controller.playMov1();
+            }
+
+            // Destruir el objeto coleccionable
             Destroy(gameObject);
         }
     }

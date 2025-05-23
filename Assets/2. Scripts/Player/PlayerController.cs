@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor;
 
 public class PlayerController : MonoBehaviour
 {
+    public PlayerSoundController PlayerSoundController;
+
     public float speed, JumpHeight;
     float velX, velY;
     Rigidbody2D rb;
@@ -29,6 +32,8 @@ public class PlayerController : MonoBehaviour
 
     Animator anim;
     Parry parry;
+    private int caminarDelay;
+    private float caminarTimer;
 
     void Start()
     {
@@ -125,8 +130,18 @@ public class PlayerController : MonoBehaviour
         velY = rb.linearVelocity.y;
         rb.linearVelocity = new Vector2(velX * speed, velY);
 
-        anim.SetBool("Run", velX != 0);
+        if (velX != 0 && isGrounded)
+        {
+            anim.SetBool("Run", true);
+            PlayerSoundController?.playCorrer();
+        }
+        else
+        {
+            anim.SetBool("Run", false);
+            PlayerSoundController?.stopCorrer();
+        }
     }
+
 
     public void Jump()
     {
@@ -136,7 +151,11 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpHeight);
             Debug.Log("Saltando");
-            Debug.Log("Saltando");
+            if (PlayerSoundController != null)
+            {
+                PlayerSoundController.playSaltar();
+            }
+            
         }
     }
 
@@ -150,11 +169,17 @@ public class PlayerController : MonoBehaviour
 
     public void RecibeDamage(Vector2 direccion, int cantDamage)
     {
+        Debug.Log("RecibirDaño");
         if (!RecibiendoDamage)
         {
             RecibiendoDamage = true;
+
+            
+            
+            
             Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
             rb.AddForce(rebote, ForceMode2D.Impulse);
+            PlayerSoundController.playRecibirDanio();
         }
     }
 
@@ -168,6 +193,7 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         rb.linearVelocity = Vector2.zero;
         anim.SetTrigger("Die");
+        PlayerSoundController.playMuerte();
     }
 
     private IEnumerator Dash()
