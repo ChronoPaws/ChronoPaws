@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: ed99c1011523ba940a598ea30b13a466
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1012778595404208872
+    second: logo chronopaws blanco_0
+  - first:
+      213: 4219237725548862178
+    second: logo chronopaws blanco_1
+  - first:
+      213: 4766020208059355877
+    second: logo chronopaws blanco_2
+  - first:
+      213: -7555733433989579833
+    second: logo chronopaws blanco_3
+  - first:
+      213: 8859591693281302962
+    second: logo chronopaws blanco_4
+  - first:
+      213: 8714983759308672635
+    second: logo chronopaws blanco_5
+  - first:
+      213: -1590037306928497241
+    second: logo chronopaws blanco_6
+  - first:
+      213: 5738673397298508141
+    second: logo chronopaws blanco_7
+  - first:
+      213: -2269035905976731350
+    second: logo chronopaws blanco_8
+  - first:
+      213: 4098361791764095290
+    second: logo chronopaws blanco_9
+  - first:
+      213: -3482719505048725606
+    second: logo chronopaws blanco_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logo chronopaws blanco_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 780
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eadf2f34cc1e0e00800000000000000
+      internalID: 1012778595404208872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 95
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea544e5b5ebd8a30800000000000000
+      internalID: 4219237725548862178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 72
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e216b5b02e442240800000000000000
+      internalID: 4766020208059355877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 72
+        width: 71
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb32894974a42790800000000000000
+      internalID: -7555733433989579833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 95
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9980574b793fa70800000000000000
+      internalID: 8859591693281302962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 95
+        width: 158
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e44ec1e87d1f870800000000000000
+      internalID: 8714983759308672635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 95
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad78e46e7d0fe9e0800000000000000
+      internalID: -1590037306928497241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_7
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 95
+        width: 120
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6136ffcc0dd3af40800000000000000
+      internalID: 5738673397298508141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 291
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2976a98dd3c280e0800000000000000
+      internalID: -2269035905976731350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 20
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31e127e55e40e830800000000000000
+      internalID: 4098361791764095290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo chronopaws blanco_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1
+        width: 291
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a971f39ff05eaafc0800000000000000
+      internalID: -3482719505048725606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logo chronopaws blanco_0: 1012778595404208872
+      logo chronopaws blanco_1: 4219237725548862178
+      logo chronopaws blanco_10: -3482719505048725606
+      logo chronopaws blanco_2: 4766020208059355877
+      logo chronopaws blanco_3: -7555733433989579833
+      logo chronopaws blanco_4: 8859591693281302962
+      logo chronopaws blanco_5: 8714983759308672635
+      logo chronopaws blanco_6: -1590037306928497241
+      logo chronopaws blanco_7: 5738673397298508141
+      logo chronopaws blanco_8: -2269035905976731350
+      logo chronopaws blanco_9: 4098361791764095290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
