@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public float maxHealth;
-    public float health;
-    public Image healthImage;
+    public float health;//---
+    //public Image healthImage;
     private bool isInmune = false;
     private bool isDead = false;
     public float KnockbackForceX;
@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
-    public PlayerSoundController PlayerSoundController;
+    //public PlayerSoundController PlayerSoundController;//---
 
     public GameOverManager gameOverManager;
 
@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
-        healthImage.fillAmount = health / maxHealth;
+        //healthImage.fillAmount = health / maxHealth;
         health = Mathf.Clamp(health, 0, maxHealth);
     }
 

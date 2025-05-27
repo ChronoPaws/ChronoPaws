@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey(KeyCode.RightArrow)) velX = 1;
 
         velY = rb.linearVelocity.y;
-        rb.linearVelocity = new Vector2(velX * speed, velY);
+        rb.linearVelocity = new Vector2(velX * speed , velY);
 
         if (velX != 0 && isGrounded)
         {
