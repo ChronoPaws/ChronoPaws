@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 9deaccb52a4d3c548b264173dddbc8bf
+guid: 305a673528e0d274e9229a287b2b6b42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7806881488758319638
-    second: DanteAtaque1Color_0
+      213: 5920484791091873316
+    second: CaminataPercy COLOR_0
   - first:
-      213: -6337300158235050284
-    second: DanteAtaque1Color_1
+      213: -6603722798221336425
+    second: CaminataPercy COLOR_1
   - first:
-      213: -3514688627319293824
-    second: DanteAtaque1Color_2
+      213: 7289428663375906075
+    second: CaminataPercy COLOR_2
   - first:
-      213: 424389082703050386
-    second: DanteAtaque1Color_3
+      213: 6524677855683451198
+    second: CaminataPercy COLOR_3
   - first:
-      213: -5540594193983812268
-    second: DanteAtaque1Color_4
+      213: 768252926054509292
+    second: CaminataPercy COLOR_4
   - first:
-      213: 3888092276025549146
-    second: DanteAtaque1Color_5
+      213: -6350962666132639564
+    second: CaminataPercy COLOR_5
   - first:
-      213: -8050570435761791732
-    second: DanteAtaque1Color_6
+      213: 8259251911611300579
+    second: CaminataPercy COLOR_6
   - first:
-      213: 2167432143524919860
-    second: DanteAtaque1Color_7
+      213: 8609220069535614635
+    second: CaminataPercy COLOR_7
+  - first:
+      213: 3368371701518236217
+    second: CaminataPercy COLOR_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,30 +133,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DanteAtaque1Color_0
+      name: CaminataPercy COLOR_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 14
-        width: 247
-        height: 337
+        x: 42
+        y: 9
+        width: 178
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,108 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61a2305f95d975c60800000000000000
-      internalID: 7806881488758319638
+      spriteID: 4264227ac89c92250800000000000000
+      internalID: 5920484791091873316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DanteAtaque1Color_1
+      name: CaminataPercy COLOR_1
       rect:
         serializedVersion: 2
-        x: 499
+        x: 218
         y: 14
-        width: 260
-        height: 332
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4de7f5125136d08a0800000000000000
-      internalID: -6337300158235050284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DanteAtaque1Color_2
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 14
-        width: 449
-        height: 337
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0883788a051593fc0800000000000000
-      internalID: -3514688627319293824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DanteAtaque1Color_3
-      rect:
-        serializedVersion: 2
-        x: 1390
-        y: 14
-        width: 447
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 296b1194f9bb3e500800000000000000
-      internalID: 424389082703050386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DanteAtaque1Color_4
-      rect:
-        serializedVersion: 2
-        x: 1977
-        y: 14
-        width: 400
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45dc0079feadb13b0800000000000000
-      internalID: -5540594193983812268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DanteAtaque1Color_5
-      rect:
-        serializedVersion: 2
-        x: 2401
-        y: 148
         width: 8
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a516176335745f530800000000000000
-      internalID: 3888092276025549146
+      spriteID: 7906ed06a1dda54a0800000000000000
+      internalID: -6603722798221336425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DanteAtaque1Color_6
+      name: CaminataPercy COLOR_2
       rect:
         serializedVersion: 2
-        x: 2504
-        y: 14
-        width: 363
-        height: 337
+        x: 244
+        y: 6
+        width: 174
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0d1829a7d0a64090800000000000000
-      internalID: -8050570435761791732
+      spriteID: b1542109fb0492560800000000000000
+      internalID: 7289428663375906075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DanteAtaque1Color_7
+      name: CaminataPercy COLOR_3
       rect:
         serializedVersion: 2
-        x: 1964
-        y: 82
-        width: 7
-        height: 22
+        x: 457
+        y: 7
+        width: 174
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +218,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43af09d0d04441e10800000000000000
-      internalID: 2167432143524919860
+      spriteID: e399ed5c0ff4c8a50800000000000000
+      internalID: 6524677855683451198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaminataPercy COLOR_4
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 9
+        width: 188
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea222347f169aa00800000000000000
+      internalID: 768252926054509292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaminataPercy COLOR_5
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 8
+        width: 177
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0756f9a19dcd7a0800000000000000
+      internalID: -6350962666132639564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaminataPercy COLOR_6
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 9
+        width: 176
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eabe0eaad1ce9270800000000000000
+      internalID: 8259251911611300579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaminataPercy COLOR_7
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 7
+        width: 150
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba685d52a081a7770800000000000000
+      internalID: 8609220069535614635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaminataPercy COLOR_8
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 8
+        width: 157
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93af874573cdebe20800000000000000
+      internalID: 3368371701518236217
       vertices: []
       indices: 
       edges: []
@@ -336,14 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DanteAtaque1Color_0: 7806881488758319638
-      DanteAtaque1Color_1: -6337300158235050284
-      DanteAtaque1Color_2: -3514688627319293824
-      DanteAtaque1Color_3: 424389082703050386
-      DanteAtaque1Color_4: -5540594193983812268
-      DanteAtaque1Color_5: 3888092276025549146
-      DanteAtaque1Color_6: -8050570435761791732
-      DanteAtaque1Color_7: 2167432143524919860
+      CaminataPercy COLOR_0: 5920484791091873316
+      CaminataPercy COLOR_1: -6603722798221336425
+      CaminataPercy COLOR_2: 7289428663375906075
+      CaminataPercy COLOR_3: 6524677855683451198
+      CaminataPercy COLOR_4: 768252926054509292
+      CaminataPercy COLOR_5: -6350962666132639564
+      CaminataPercy COLOR_6: 8259251911611300579
+      CaminataPercy COLOR_7: 8609220069535614635
+      CaminataPercy COLOR_8: 3368371701518236217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

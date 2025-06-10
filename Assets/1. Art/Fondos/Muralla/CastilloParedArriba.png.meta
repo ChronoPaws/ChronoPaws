@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3bbdfab4ec0d63b4a89590edc5e4f00f
+guid: f36d7f06b47a5ed44b5c4bd6d97019c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5287115742118797515
-    second: DanteDashColor_0
+      213: -3075250311899515705
+    second: CastilloParedArriba_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DanteDashColor_0
+      name: CastilloParedArriba_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 14
-        width: 290
-        height: 310
+        y: 21
+        width: 1920
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53f12a0be3460a6b0800000000000000
-      internalID: -5287115742118797515
+      spriteID: 7c4f1db72248255d0800000000000000
+      internalID: -3075250311899515705
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      DanteDashColor_0: -5287115742118797515
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
