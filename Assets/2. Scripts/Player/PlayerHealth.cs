@@ -33,7 +33,9 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
-        healthImage.fillAmount = health / maxHealth;
+        if (healthImage != null)
+            healthImage.fillAmount = health / maxHealth;
+
         health = Mathf.Clamp(health, 0, maxHealth);
     }
 
@@ -42,46 +44,18 @@ public class PlayerHealth : MonoBehaviour
         if (!isInmune && !isDead)
         {
             health -= damage;
-            
             anim.SetTrigger("Damage");
-            
-            
+
             StartCoroutine(Inmunity());
 
             Vector2 knockDir = (transform.position - attacker.position).normalized;
             rb.AddForce(new Vector2(knockDir.x * KnockbackForceX, KnockbackForceY), ForceMode2D.Force);
 
-            
-
             if (health <= 0)
             {
-                isDead = true;
-                anim.SetTrigger("Die");
-                GetComponent<PlayerController>().SetDead();
-                StartCoroutine(DelayedGameOver()); //  Ejecutamos una coroutine
+                Die();  // llamamos a nuestro nuevo método
+                StartCoroutine(DelayedGameOver());
             }
-
-        }
-    }
-
-    IEnumerator Inmunity()
-    {
-        isInmune = true;
-        yield return new WaitForSeconds(0.5f);
-        isInmune = false;
-    }
-
-    public bool IsDead()
-    {
-        return isDead;
-    }
-    IEnumerator DelayedGameOver()
-    {
-        yield return new WaitForSeconds(1f); //  Delay de 2 segundos
-
-        if (gameOverManager != null)
-        {
-            gameOverManager.ShowGameOver();
         }
     }
 
@@ -89,9 +63,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isDead) return;
         health = 0;
-        anim.SetTrigger("Die");
-        isDead = true;
-        GetComponent<PlayerController>().SetDead();
+        Die();
         StartCoroutine(DelayedGameOver());
     }
 
@@ -103,7 +75,62 @@ public class PlayerHealth : MonoBehaviour
             health = Mathf.Clamp(health, 0, maxHealth);
         }
     }
+
+    public float defaultHealAmount = 10f;
+
+    public void DoHealth()
+    {
+        if (!isDead && health < maxHealth)
+        {
+            health += defaultHealAmount;
+            health = Mathf.Clamp(health, 0, maxHealth);
+
+            PlayerSoundController?.playCuracion();  // aquí corregido
+
+            Debug.Log($"Jugador se curó {defaultHealAmount}, vida actual: {health}");
+        }
+    }
+
+
+
+    // ✅ Nuevo método que centraliza la lógica de morir
+    private void Die()
+    {
+        if (isDead) return;
+
+        isDead = true;
+
+        // Detenemos movimiento
+        rb.linearVelocity = Vector2.zero;
+
+        // Lanzamos animación de muerte
+        anim.SetTrigger("Die");
+
+        // Reproducir sonido de muerte
+        PlayerSoundController?.playMuerte();
+
+        Debug.Log("Personaje ha muerto");
+    }
+
+    IEnumerator Inmunity()
+    {
+        isInmune = true;
+        yield return new WaitForSeconds(0.5f);
+        isInmune = false;
+    }
+
+    IEnumerator DelayedGameOver()
+    {
+        yield return new WaitForSeconds(1f);
+
+        if (gameOverManager != null)
+        {
+            gameOverManager.ShowGameOver();
+        }
+    }
+
+    public bool IsDead()
+    {
+        return isDead;
+    }
 }
-
-
-

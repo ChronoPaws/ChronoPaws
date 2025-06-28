@@ -1,29 +1,32 @@
 using UnityEngine;
 using System.Collections;
-public class Parry : MonoBehaviour
+
+public class PlayerParry : MonoBehaviour
 {
-    public float parryWindow = 0.3f; // Tiempo donde el parry est� activo
+    public float parryWindow = 0.3f; // Tiempo donde el parry está activo
     private bool isParrying = false;
 
     private Animator anim;
 
-    void Start()
+    void Awake()
     {
         anim = GetComponent<Animator>();
     }
 
-    void Update()
+    // Este método lo llamará PlayerController
+    public void DoParry()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (!isParrying)
         {
             StartCoroutine(PerformParry());
+            Debug.Log("Parry activado");
         }
     }
 
-    IEnumerator PerformParry()
+    private IEnumerator PerformParry()
     {
         isParrying = true;
-        anim.SetTrigger("Parry"); // Animaci�n futura
+        anim.SetTrigger("Parry"); // Animación
         yield return new WaitForSeconds(parryWindow);
         isParrying = false;
     }

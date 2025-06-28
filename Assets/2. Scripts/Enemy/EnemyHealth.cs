@@ -26,7 +26,7 @@ public class EnemyHealth : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            Parry parry = collision.GetComponent<Parry>();
+            PlayerParry parry = collision.GetComponent<PlayerParry>();
             EnemyController controller = GetComponent<EnemyController>();
 
             if (parry != null && parry.IsParrying() && controller != null && controller.isStriking)

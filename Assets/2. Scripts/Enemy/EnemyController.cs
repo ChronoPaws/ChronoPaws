@@ -92,7 +92,7 @@ public class EnemyController : MonoBehaviour
 
         if (Vector2.Distance(transform.position, player.position) <= hitDistance)
         {
-            Parry parry = player.GetComponent<Parry>();
+            PlayerParry parry = player.GetComponent<PlayerParry>();
 
             if (parry != null && parry.IsParrying())
             {

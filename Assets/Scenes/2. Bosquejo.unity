@@ -26692,9 +26692,6 @@ PrefabInstance:
       insertIndex: 3
       addedObject: {fileID: 1627459130}
     - targetCorrespondingSourceObject: {fileID: 5265820414576134783, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 1627459118}
-    - targetCorrespondingSourceObject: {fileID: 5265820414576134783, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1627459129}
   m_SourcePrefab: {fileID: 100100000, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
@@ -26719,19 +26716,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4904951424321612555, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
   m_PrefabInstance: {fileID: 1627459114}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1627459118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627459115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbba92da5b8db8e438ecea27ed7c9889, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parryWindow: 0.3
 --- !u!4 &1627459128 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5960009943445656256, guid: 09aea1f8de19fe34fb6d384434e01f3c, type: 3}
@@ -26744,7 +26728,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627459115}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &1627459130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26761,7 +26745,7 @@ MonoBehaviour:
   sonidoCorrer: {fileID: 8300000, guid: 2514b957aab709a4092a24598dd7c41a, type: 3}
   sonidoCuracion: {fileID: 8300000, guid: 63204bef2a0721b429b9e0dbe326eba2, type: 3}
   sonidoRecibirDanio: {fileID: 8300000, guid: 4db2af587e100fb49be9553ef37829c1, type: 3}
-  sonidoAtacar: {fileID: 0}
+  sonidoAtacar: {fileID: 8300000, guid: f4a5f85f250ad2a45b88f0b77910eb5c, type: 3}
   sonidoSaltar: {fileID: 8300000, guid: 7e1ffd3b2e4fb3a489fbe37e08dbb034, type: 3}
   sonidoMuerte: {fileID: 8300000, guid: 5a03741eec350db41a30290993d1af46, type: 3}
   sonidoRecoger: {fileID: 8300000, guid: eb1bbd3705898b946aef409b4e88c25f, type: 3}
