@@ -702,6 +702,7 @@ GameObject:
   - component: {fileID: 8887529701721022679}
   - component: {fileID: 7072587544620798060}
   - component: {fileID: 8462042107578889059}
+  - component: {fileID: 247055183157031202}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -800,6 +801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swordSwingClip: {fileID: 8300000, guid: f4a5f85f250ad2a45b88f0b77910eb5c, type: 3}
+  attackDuration: 0.5
+  attackCooldown: 0.3
 --- !u!114 &4163338684003020679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,6 +1272,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &247055183157031202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265820414576134783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13b82257f973f14e8a8790855d867a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recordTime: 3
 --- !u!1 &5830376044418494600
 GameObject:
   m_ObjectHideFlags: 0

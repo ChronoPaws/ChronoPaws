@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+
     void Update()
     {
         movement.UpdateGroundCheck();
@@ -51,14 +52,23 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.M))
             map.ToggleMap();
+
+        if (TimeManager.Instance != null && TimeManager.Instance.IsRewinding)
+            return; // Bloquea entrada mientras rebobina
+
+        // Entrada normal aquí
+        if (Input.GetKeyDown(KeyCode.X)) attack.DoAttack();
+        if (Input.GetKeyDown(KeyCode.Z)) parry.DoParry();
     }
 
     void FixedUpdate()
     {
+        if (TimeManager.Instance != null && TimeManager.Instance.IsRewinding)
+            return;
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         movement.Move(horizontal);
 
-        if (Input.GetButton("Jump"))
-            movement.Jump();
+        if (Input.GetButton("Jump")) movement.Jump();
     }
 }
