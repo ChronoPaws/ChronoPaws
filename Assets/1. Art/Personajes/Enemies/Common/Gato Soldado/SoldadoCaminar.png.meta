@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: 6e958e9af91959d46b5958ab535e6df1
+guid: 40f610c25ba5e7843a215018a8d5a584
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2019830893363709427
-    second: SoldadoAtaque 1_0
+      213: -8861707375361266352
+    second: SoldadoCaminar_0
   - first:
-      213: -3124163661123744146
-    second: SoldadoAtaque 1_1
+      213: -2142511640037967148
+    second: SoldadoCaminar_1
   - first:
-      213: 2936095388887918657
-    second: SoldadoAtaque 1_2
+      213: 689021304310972493
+    second: SoldadoCaminar_2
   - first:
-      213: 2181093869880349371
-    second: SoldadoAtaque 1_3
+      213: -7065129040106415789
+    second: SoldadoCaminar_3
   - first:
-      213: 657536345203419487
-    second: SoldadoAtaque 1_4
+      213: 8637049484118850626
+    second: SoldadoCaminar_4
   - first:
-      213: 8014262596917916109
-    second: SoldadoAtaque 1_5
+      213: -1261318714614882469
+    second: SoldadoCaminar_5
   - first:
-      213: -7831051245165342968
-    second: SoldadoAtaque 1_6
+      213: 5917451190501673589
+    second: SoldadoCaminar_6
   - first:
-      213: 4363946168502208887
-    second: SoldadoAtaque 1_7
-  - first:
-      213: -8695305834215065470
-    second: SoldadoAtaque 1_8
+      213: 5130543101881851332
+    second: SoldadoCaminar_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 450
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,100 +121,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SoldadoAtaque 1_0
+      name: SoldadoCaminar_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 0
-        width: 396
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f5cd49fe71e70c10800000000000000
-      internalID: 2019830893363709427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoldadoAtaque 1_1
-      rect:
-        serializedVersion: 2
-        x: 490
-        y: 0
-        width: 378
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6e0986e3bdb4a4d0800000000000000
-      internalID: -3124163661123744146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoldadoAtaque 1_2
-      rect:
-        serializedVersion: 2
-        x: 907
-        y: 0
-        width: 396
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 148a359333b1fb820800000000000000
-      internalID: 2936095388887918657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoldadoAtaque 1_3
-      rect:
-        serializedVersion: 2
-        x: 1336
-        y: 171
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb21008915dc44e10800000000000000
-      internalID: 2181093869880349371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoldadoAtaque 1_4
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 1
-        width: 415
+        x: 16
+        y: 2
+        width: 418
         height: 337
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -227,19 +136,129 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5922ca72d9002900800000000000000
-      internalID: 657536345203419487
+      spriteID: 05de12ce714e40580800000000000000
+      internalID: -8861707375361266352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SoldadoAtaque 1_5
+      name: SoldadoCaminar_1
       rect:
         serializedVersion: 2
-        x: 1785
+        x: 404
+        y: 151
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dab560d3054442e0800000000000000
+      internalID: -2142511640037967148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoCaminar_2
+      rect:
+        serializedVersion: 2
+        x: 462
         y: 0
-        width: 418
+        width: 397
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40c126c935ef8900800000000000000
+      internalID: 689021304310972493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoCaminar_3
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 0
+        width: 397
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3591928129e93fd90800000000000000
+      internalID: -7065129040106415789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoCaminar_4
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 2
+        width: 397
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cff58aeb6fcd770800000000000000
+      internalID: 8637049484118850626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoCaminar_5
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 2
+        width: 397
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fd3d2df45ee7ee0800000000000000
+      internalID: -1261318714614882469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoCaminar_6
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1
+        width: 397
         height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -249,42 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc1fdf9de51683f60800000000000000
-      internalID: 8014262596917916109
+      spriteID: 57a809971820f1250800000000000000
+      internalID: 5917451190501673589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SoldadoAtaque 1_6
+      name: SoldadoCaminar_7
       rect:
         serializedVersion: 2
-        x: 2297
-        y: 169
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80f0a0a1264825390800000000000000
-      internalID: -7831051245165342968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoldadoAtaque 1_7
-      rect:
-        serializedVersion: 2
-        x: 2299
+        x: 308
         y: 0
-        width: 415
-        height: 336
+        width: 9
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,30 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77940884be9df8c30800000000000000
-      internalID: 4363946168502208887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoldadoAtaque 1_8
-      rect:
-        serializedVersion: 2
-        x: 2812
-        y: 0
-        width: 396
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 288ba3ad961145780800000000000000
-      internalID: -8695305834215065470
+      spriteID: 4cd9f74b4c9533740800000000000000
+      internalID: 5130543101881851332
       vertices: []
       indices: 
       edges: []
@@ -334,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SoldadoCaminar_0: -8861707375361266352
+      SoldadoCaminar_1: -2142511640037967148
+      SoldadoCaminar_2: 689021304310972493
+      SoldadoCaminar_3: -7065129040106415789
+      SoldadoCaminar_4: 8637049484118850626
+      SoldadoCaminar_5: -1261318714614882469
+      SoldadoCaminar_6: 5917451190501673589
+      SoldadoCaminar_7: 5130543101881851332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 9622148c049ac00468dcffac0f8e3024
+guid: 3f1c4e142fac47e4e84bdebacb41fa32
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6429786381943226742
-    second: Ref soldado (1)_0
+      213: -2651687094094916961
+    second: EnemigoMuerte_0
   - first:
-      213: 2537682635777390303
-    second: Ref soldado (1)_1
+      213: -3815434341034725379
+    second: EnemigoMuerte_1
   - first:
-      213: -4225722603004802527
-    second: Ref soldado (1)_2
+      213: -1391475365165687984
+    second: EnemigoMuerte_2
   - first:
-      213: -1463743895612784750
-    second: Ref soldado (1)_3
+      213: 5465167670666408484
+    second: EnemigoMuerte_3
+  - first:
+      213: -6476244329866430798
+    second: EnemigoMuerte_4
+  - first:
+      213: -4966411637596948164
+    second: EnemigoMuerte_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +61,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 450
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ref soldado (1)_0
+      name: EnemigoMuerte_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 23
-        width: 416
-        height: 336
+        x: 17
+        y: 1
+        width: 397
+        height: 337
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,42 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8e31a22a5fc4c6a0800000000000000
-      internalID: -6429786381943226742
+      spriteID: f921cfc13a0533bd0800000000000000
+      internalID: -2651687094094916961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ref soldado (1)_1
+      name: EnemigoMuerte_1
       rect:
         serializedVersion: 2
-        x: 387
-        y: 172
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd6303a79e8a73320800000000000000
-      internalID: 2537682635777390303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ref soldado (1)_2
-      rect:
-        serializedVersion: 2
-        x: 248
+        x: 469
         y: 0
-        width: 10
-        height: 8
+        width: 421
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12a4f807ea73b55c0800000000000000
-      internalID: -4225722603004802527
+      spriteID: dff6cce8eaadc0bc0800000000000000
+      internalID: -3815434341034725379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ref soldado (1)_3
+      name: EnemigoMuerte_2
       rect:
         serializedVersion: 2
-        x: 276
-        y: 2
-        width: 24
-        height: 46
+        x: 935
+        y: 0
+        width: 423
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +174,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29f7ad3aeacbfabe0800000000000000
-      internalID: -1463743895612784750
+      spriteID: 05b9799178c70bce0800000000000000
+      internalID: -1391475365165687984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoMuerte_3
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 0
+        width: 421
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42235007a0d28db40800000000000000
+      internalID: 5465167670666408484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoMuerte_4
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 0
+        width: 421
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b67ca73812cf16a0800000000000000
+      internalID: -6476244329866430798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoMuerte_5
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 0
+        width: 407
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39faa4cde2c31bb0800000000000000
+      internalID: -4966411637596948164
       vertices: []
       indices: 
       edges: []
@@ -200,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ref soldado (1)_0: -6429786381943226742
-      Ref soldado (1)_1: 2537682635777390303
-      Ref soldado (1)_2: -4225722603004802527
-      Ref soldado (1)_3: -1463743895612784750
+      EnemigoMuerte_0: -2651687094094916961
+      EnemigoMuerte_1: -3815434341034725379
+      EnemigoMuerte_2: -1391475365165687984
+      EnemigoMuerte_3: 5465167670666408484
+      EnemigoMuerte_4: -6476244329866430798
+      EnemigoMuerte_5: -4966411637596948164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
