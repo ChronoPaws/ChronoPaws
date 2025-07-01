@@ -34,4 +34,7 @@ public class PlayerJump : MonoBehaviour
             movement.groundLayer  // ✅ Corrección aquí: antes decía whatIsGround
         );
     }
+
+
+
 }

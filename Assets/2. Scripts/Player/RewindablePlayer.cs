@@ -29,7 +29,16 @@ public class RewindablePlayer : MonoBehaviour, IRewindable
         if (frames.Count > Mathf.Round(recordTime / fixedDelta))
             frames.RemoveAt(frames.Count - 1);
 
-        frames.Insert(0, new PlayerRewindFrame(transform.position, transform.localScale));
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+
+        PlayerRewindFrame frame = new PlayerRewindFrame(
+            transform.position,
+            transform.localScale,
+            stateInfo.shortNameHash,
+            stateInfo.normalizedTime
+        );
+
+        frames.Insert(0, frame);
     }
 
     public void Rewind()
@@ -39,6 +48,11 @@ public class RewindablePlayer : MonoBehaviour, IRewindable
             var frame = frames[0];
             transform.position = frame.position;
             transform.localScale = frame.scale;
+
+            // Restaurar animación exacta
+            anim.Play(frame.animationStateHash, 0, frame.animationNormalizedTime);
+            anim.speed = 0f;
+
             frames.RemoveAt(0);
         }
     }
@@ -49,7 +63,10 @@ public class RewindablePlayer : MonoBehaviour, IRewindable
             rb.isKinematic = true;
 
         if (anim != null)
-            anim.SetBool("Rewinding", true); // Si tienes esta animación opcional
+        {
+            anim.speed = 0f;
+            anim.SetBool("Rewinding", true); // Opcional si usas un parámetro en Animator
+        }
     }
 
     public void StopRewind()
@@ -58,6 +75,9 @@ public class RewindablePlayer : MonoBehaviour, IRewindable
             rb.isKinematic = false;
 
         if (anim != null)
-            anim.SetBool("Rewinding", false);
+        {
+            anim.speed = 1f;
+            anim.SetBool("Rewinding", false); // Opcional
+        }
     }
 }
