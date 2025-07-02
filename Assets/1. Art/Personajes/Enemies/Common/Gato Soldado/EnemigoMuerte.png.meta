@@ -118,12 +118,12 @@ TextureImporter:
       name: EnemigoMuerte_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 1
-        width: 397
-        height: 337
+        width: 398
+        height: 387
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -142,10 +142,10 @@ TextureImporter:
         serializedVersion: 2
         x: 469
         y: 0
-        width: 421
-        height: 341
+        width: 422
+        height: 388
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,10 +164,10 @@ TextureImporter:
         serializedVersion: 2
         x: 935
         y: 0
-        width: 423
-        height: 341
+        width: 424
+        height: 388
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: EnemigoMuerte_3
       rect:
         serializedVersion: 2
-        x: 1377
+        x: 1376
         y: 0
-        width: 421
-        height: 341
+        width: 422
+        height: 388
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: EnemigoMuerte_4
       rect:
         serializedVersion: 2
-        x: 1869
+        x: 1870
         y: 0
-        width: 421
-        height: 341
+        width: 420
+        height: 388
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: EnemigoMuerte_5
       rect:
         serializedVersion: 2
-        x: 2345
+        x: 2344
         y: 0
-        width: 407
-        height: 340
+        width: 408
+        height: 388
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,11 +246,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: EnemigoMuerte_6
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 0
+        width: 335
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064a930a8f7cc1942ac6a3bcf826d943
+      internalID: -612933539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoMuerte_7
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 0
+        width: 323
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46a646e74d2f1c4fb960b5a5b6c0b53
+      internalID: -596086304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fcba8a9845d2b124d833b065b32d4829
     internalID: 0
     vertices: []
     indices: 
@@ -266,6 +310,8 @@ TextureImporter:
       EnemigoMuerte_3: 5465167670666408484
       EnemigoMuerte_4: -6476244329866430798
       EnemigoMuerte_5: -4966411637596948164
+      EnemigoMuerte_6: -612933539
+      EnemigoMuerte_7: -596086304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
