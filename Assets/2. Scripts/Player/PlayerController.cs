@@ -38,11 +38,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
             parry.DoParry();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-            dash.TryDash();
+        //if (Input.GetKeyDown(KeyCode.LeftShift))
+            //dash.TryDash();
 
-        if (Input.GetKeyDown(KeyCode.D))
-            health.DoHealth();
+        //if (Input.GetKeyDown(KeyCode.D))
+            //health.DoHealth();
 
         if (Input.GetKeyDown(KeyCode.F))
             interact.DoInteract();

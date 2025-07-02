@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: 
-  speed: 3
+  speed: 5
   healthPoints: 10
   damageToGive: 5
   knockbackForce: 2
