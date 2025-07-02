@@ -459,7 +459,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlataformaFrente_0: -3852775451587973318
+      PlataformaFrente_1: -6166065236645152535
+      PlataformaFrente_10: -4148014446532658473
+      PlataformaFrente_11: -2164820555319108279
+      PlataformaFrente_12: -6392555448978453012
+      PlataformaFrente_13: 7822871398756244676
+      PlataformaFrente_2: 4619648994541759670
+      PlataformaFrente_3: -4230189795983113278
+      PlataformaFrente_4: -1062962540204185300
+      PlataformaFrente_5: 2888208607616544473
+      PlataformaFrente_6: 4025534643664595302
+      PlataformaFrente_7: -6743698336701625917
+      PlataformaFrente_8: -5155057319072581275
+      PlataformaFrente_9: -7546984831015758946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

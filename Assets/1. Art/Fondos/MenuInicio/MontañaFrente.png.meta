@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Monta\xF1aFrente_0": -6174891046670414601
+      "Monta\xF1aFrente_1": 5725034102074032249
+      "Monta\xF1aFrente_2": 3207790927059744845
+      "Monta\xF1aFrente_3": 1668785712603845923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

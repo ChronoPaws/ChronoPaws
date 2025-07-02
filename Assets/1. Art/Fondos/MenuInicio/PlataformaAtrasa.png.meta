@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlataformaAtrasa_0: 614808085120582865
+      PlataformaAtrasa_1: -2223889115695032501
+      PlataformaAtrasa_2: -4412293700791045972
+      PlataformaAtrasa_3: -74185845140863342
+      PlataformaAtrasa_4: 1111787382366409864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
